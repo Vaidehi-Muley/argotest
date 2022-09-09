@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     chart: jupyterhub
-    repoURL: https://github.com/jupyterhub/zero-to-jupyterhub-k8s/tree/main/jupyterhub
+    repoURL: https://jupyterhub.github.io/helm-chart/
     targetRevision: 15.6.0
   syncPolicy:
     automated:

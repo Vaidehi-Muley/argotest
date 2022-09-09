@@ -13,7 +13,7 @@ spec:
   source:
     chart: jupyterhub
     repoURL: https://jupyterhub.github.io/helm-chart/
-    targetRevision: 0.2.0
+    targetRevision: 1.2.0
   syncPolicy:
     automated:
       prune: true

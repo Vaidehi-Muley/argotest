@@ -12,10 +12,6 @@ spec:
   project: default
   source:
     chart: jupyterhub
-    helm:
-      values: |
-        pushgateway:
-          enabled: false
     repoURL: https://github.com/jupyterhub/helm-chart
     targetRevision: 15.6.0
   syncPolicy:
